@@ -33,7 +33,7 @@ const app = express();
 
 // Allow cors
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://edgeuplearning.onrender.com',
   credentials: true
 }));
 
